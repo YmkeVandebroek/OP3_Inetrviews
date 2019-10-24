@@ -1,0 +1,478 @@
+/*ALGEMEEN------------------------------------------------------------------------------------------*/
+.reveal .controls{
+  color: white;
+}
+
+section{
+  background-color: white;
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+  font-family: 'Arvo', serif;
+  position: relative;
+}
+
+ body{
+   background-image: linear-gradient(45deg,rgb(0,122,141),rgb(120,200,210));
+ }
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 1.5%;
+  font-size: 6rem;
+  text-align: center;
+  animation-name: titel;
+  animation-duration: 3s;
+  color: rgb(0,122,141);
+}
+
+.vraag{
+  font-size: 5rem;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1.5%;
+  animation-name: links;
+  animation-duration: 3s;
+}
+
+h3{
+  font-size: 2rem;
+  font-family: 'Arvo', serif;
+  margin-bottom: 1%;
+  padding: 2%;
+}
+
+h3:hover{
+  background-color: rgb(0,122,141);
+  color: white;
+}
+
+
+h4{
+  font-size: 2rem;
+  font-family: 'Raleway', serif;
+}
+
+/*SLIDE1------------------------------------------------------------------------------------------*/
+.titelpagina h1{
+  font-size: 12rem;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  padding: 1rem;
+  background-color: rgb(0,122,141);
+  color: white;
+  animation-name: links;
+  animation-duration: 3s;
+}
+
+.titelpagina h2{
+  font-size: 4.7rem;
+  position: absolute;
+  bottom: 37%;
+  left: 20%;
+  animation-name: rechts;
+  animation-duration: 4s;
+  color: rgb(0,122,141);
+}
+
+/*Animatie SLIDE1-----------------------------------------------------------------------------------------*/
+@keyframes links{
+  0%{
+    transform: translateX(-200px)
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes rechts{
+  0%{
+    transform: translateX(180px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+/*SLIDE3------------------------------------------------------------------------------------------*/
+.respondent1{
+  position: absolute;
+  background-color: rgb(0,122,141);
+  color: white;
+  top: 22%;
+  left: 20%;
+  padding: 2%;
+  max-width: 70%;
+  text-align: left;
+  animation-name: links;
+  animation-duration: 3s;
+}
+
+.respondent1slide3{
+  width: auto;
+  display: block;
+  height: 38%;
+  position: absolute;
+  right: 76.5%;
+}
+
+.respondent2{
+  position: absolute;
+  background-color: rgb(0,122,141);
+  color: white;
+  top: 48.7%;
+  right: 25%;
+  padding: 2%;
+  max-width: 70%;
+  text-align:right;
+  animation-name: rechts;
+  animation-duration: 3s;
+}
+.respondent2slide3{
+  width: auto;
+  height: 38%;
+  position: absolute;
+  left: 74%;
+  top: 37%;
+}
+
+.respondent3{
+  position: absolute;
+  background-color: rgb(0,122,141);
+  color: white;
+  bottom: 5%;
+  padding: 2%;
+  max-width: 70%;
+  text-align: left;
+  animation-name: links;
+  animation-duration: 3s;
+  left: 20%;
+}
+
+.respondent3slide3{
+  width: auto;
+  height: 38%;
+  position: absolute;
+  right: 76.5%;
+  top: 66%;
+}
+/*SLIDE4-------------------------------------------------------------------------------------------*/
+.citaten1 .vraag{
+  background-color: rgb(0,122,141);
+  color: white;
+  margin: 2%;
+  padding: 1rem;
+}
+
+.citaten1 .respondent1{
+  top: 35%;
+  left: 15%;
+  background-color: white;
+  color: rgb(0,122,141);
+  max-width: 50%;
+}
+
+.citaten1 .respondent1 h3{
+  font-size: 4rem;
+  margin-bottom: 2%;
+}
+
+.citaten1 .respondent1 h4{
+  font-size: 3.3rem;
+}
+
+.respondent1slide4{
+  width: auto;
+  height: 60%;
+  position: absolute;
+  right: 0%;
+  top: 48%;
+}
+/*SLIDE 5------------------------------------------------------------------------------------------*/
+.citaten2 .vraag{
+  background-color: rgb(0,122,141);
+  color: white;
+  margin: 2%;
+  padding: 1rem;
+}
+
+.citaten2 .respondent2{
+  top: 25%;
+  left: 20%;
+  right: 0%;
+  background-color: white;
+  color: rgb(0,122,141);
+}
+
+.citaten2 .respondent2 h3{
+  font-size: 4rem;
+  margin-bottom: 2%;
+}
+
+.citaten2 .respondent2 h4{
+  font-size: 3.3rem;
+}
+
+.respondent2slide5{
+  width: auto;
+  height: 60%;
+  position: absolute;
+  left: 0%;
+  top: 48%;
+}
+
+/*SLIDE 6------------------------------------------------------------------------------------------*/
+.citaten3 .vraag{
+  background-color: rgb(0,122,141);
+  color: white;
+  margin: 2%;
+  padding: 1rem;
+}
+
+.citaten3 .respondent2{
+  top: 25%;
+  left: 20%;
+  right: 0%;
+  background-color: white;
+  color: rgb(0,122,141);
+}
+
+.citaten3 .respondent2 h3{
+  font-size: 4rem;
+  margin-bottom: 2%;
+}
+
+.citaten3 .respondent2 h4{
+  font-size: 3.3rem;
+}
+
+.respondent2slide6{
+  width: auto;
+  height: 60%;
+  position: absolute;
+  left: 0%;
+  top: 48%;
+}
+
+/*SLIDE 7------------------------------------------------------------------------------------------*/
+.citaten4 .vraag{
+  background-color: rgb(0,122,141);
+  color: white;
+  margin: 2%;
+  padding: 1rem;
+}
+
+.citaten4 .respondent1{
+  top: 35%;
+  left: 15%;
+  background-color: white;
+  color: rgb(0,122,141);
+  max-width: 50%;
+}
+
+.citaten4 .respondent1 h3{
+  font-size: 4rem;
+  margin-bottom: 2%;
+}
+
+.citaten4 .respondent1 h4{
+  font-size: 3.3rem;
+}
+
+.respondent1slide7{
+  width: auto;
+  height: 60%;
+  position: absolute;
+  right: 0%;
+  top: 48%;
+}
+
+/*SLIDE 8------------------------------------------------------------------------------------------*/
+.citaten5 .vraag{
+  background-color: rgb(0,122,141);
+  color: white;
+  margin: 2%;
+  padding: 1rem;
+}
+
+.citaten5 .respondent1{
+  top: 25%;
+  left: 5%;
+  background-color: white;
+  color: rgb(0,122,141);
+  text-align: left;
+}
+
+.citaten5 .respondent1 h3{
+  margin-bottom: 2%;
+  font-size: 3rem;
+}
+
+.citaten5 .respondent1 h4{
+  font-size: 2.5rem;
+}
+
+.citaten5 .respondent2{
+  top: 60%;
+  right: 5%;
+  background-color: white;
+  color: rgb(0,122,141);
+  text-align: right;
+}
+
+.citaten5 .respondent2 h3{
+  margin-bottom: 2%;
+  font-size: 3rem;
+}
+
+.citaten5 .respondent2 h4{
+  font-size: 2.5rem;
+}
+
+.respondent1slide8{
+  width: auto;
+  height: 50%;
+  position: absolute;
+  right: 0%;
+  top: 15%;
+}
+
+.respondent2slide8{
+  width: auto;
+  height: 50%;
+  position: absolute;
+  left: 0%;
+  top: 55%;
+}
+/*SLIDE 9------------------------------------------------------------------------------------------*/
+.citaten6 .vraag{
+  background-color: rgb(0,122,141);
+  color: white;
+  margin: 2%;
+  padding: 1rem;
+}
+
+.citaten6 .respondent1{
+  top: 20%;
+  left: 25%;
+  right: 0%;
+  background-color: white;
+  color: rgb(0,122,141);
+}
+
+.citaten6 .respondent1 h3{
+  font-size: 4rem;
+  margin-bottom: 2%;
+  text-align: right;
+}
+
+.citaten6 .respondent1 h4{
+  font-size: 3.3rem;
+  text-align: right;
+}
+
+
+.respondent1slide9{
+  width: auto;
+  height: 60%;
+  position: absolute;
+  left: 0%;
+  top: 48%;
+}
+
+/*SLIDE 10------------------------------------------------------------------------------------------*/
+.citaten7 .vraag{
+  background-color: rgb(0,122,141);
+  color: white;
+  margin: 2%;
+  padding: 1rem;
+}
+
+.citaten7 .respondent2{
+  top: 25%;
+  right: 20%;
+  left: 10%;
+  background-color: white;
+  color: rgb(0,122,141);
+}
+
+.citaten7 .respondent2 h3{
+  font-size: 4rem;
+  margin-bottom: 2%;
+  text-align: left;
+}
+
+.citaten7 .respondent2 h4{
+  font-size: 3.3rem;
+  text-align: left;
+}
+
+.respondent2slide10{
+  width: auto;
+  height: 60%;
+  position: absolute;
+  right: 0%;
+  top: 48%;
+}
+
+/*SLIDE 11------------------------------------------------------------------------------------------*/
+.citaten8 .vraag{
+  background-color: rgb(0,122,141);
+  color: white;
+  margin: 2%;
+  padding: 1rem;
+}
+
+.citaten8 .respondent2{
+  top: 20%;
+  right: 10%;
+  background-color: white;
+  color: rgb(0,122,141);
+  text-align: right;
+}
+
+.citaten8 .respondent2 h3{
+  margin-bottom: 2%;
+  font-size: 3rem;
+}
+
+.citaten8 .respondent2 h4{
+  font-size: 2.5rem;
+}
+
+.citaten8 .respondent3{
+  top: 60%;
+  left: 20%;
+  background-color: white;
+  color: rgb(0,122,141);
+  text-align: left;
+  max-width: 50%;
+}
+
+.citaten8 .respondent3 h3{
+  margin-bottom: 2%;
+  font-size: 3rem;
+}
+
+.citaten8 .respondent3 h4{
+  font-size: 2.5rem;
+}
+
+.respondent2slide11{
+  width: auto;
+  height: 50%;
+  position: absolute;
+  left: 0%;
+  top: 15%;
+}
+
+.respondent3slide11{
+  width: auto;
+  height: 50%;
+  position: absolute;
+  right: 0%;
+  top: 55%;
+}
